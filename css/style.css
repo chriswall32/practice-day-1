@@ -1,7 +1,70 @@
+/*----Body CSS---*/
+
 .red {
-  background-color: red;
+    background-color: red;
 }
 
 .blue {
-  background-color: blue;
+    background-color: blue;
+}
+
+.happy-bunnies {
+    height: 200px;
+    background-color: yellow;
+    width: 40%;
+}
+
+.dead-butterflies {
+    height: 200px;
+    background-color: #eee;
+    width: 30%;
+}
+
+.lady-bugs {
+    height: 200px;
+    background-color: #bada55;
+    width: 30%;
+}
+
+
+/*--media queries----*/
+
+@media screen and (min-width: 768px) {
+    .dead-butterflies {
+        background-color: #999099;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .happy-bunnies {
+        background-color: purple;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lady-bugs {
+        background-color: orange;
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+  .happy-bunnies {
+    background-color: red;
+  }
+  .lady-bugs {
+    background-color: green;
+  }
+  .dead-butterflies {
+    background-color: pink;
+  }
+}
+
+@@media screen and (min-width: 375px) {
+    .dead-butterflies {
+        background-color: #fff;
+        border: 1px dotted #990000;
+    }
 }
